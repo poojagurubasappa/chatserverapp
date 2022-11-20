@@ -10,7 +10,7 @@
     "start": "concurrently npm:start:server npm:start:client",
     "install_server": "cd server && npm i",
     "install_client": "cd client && npm i",
-    "install": "npm install && npm run install_server && npm run install_client"
+    "install": "npm run install_server && npm run install_client"
   },
   "repository": {
     "type": "git",
